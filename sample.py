@@ -21,7 +21,7 @@ def get_upgrade_status (upgrade_pref: bool) -> bool:
     dotnet = get_dotnet_info()
 
     if dotnet is not None and dragon is not None:
-        if (Version(dotnet['Version']) <= Version('4.5')) and (Version(dragon['Version']) > Version('2020.1')):
+        if (Version(dotnet['Version']) < Version('4.5')) and (Version(dragon['Version']) > Version('2020.1')):
             return True
         return upgrade_pref
     return False
