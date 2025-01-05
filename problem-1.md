@@ -8,7 +8,8 @@ The algorithm to determine whether an upgrade is necessary is already provided (
 ### Requirements:
 
 1. The script assesses system state by comparing the presence and version of two related software packages (Microsoft .NET Framework and Nuance Dragon Medical One), speced in this problem with simple JSON files.
-    * If the version of `.NET Framework` is less than or equal to `4.5` **and** the version of `Nuance Dragon Medical One` is greater than `2020.1`, an upgrade to the latest version of .NET is necessary.
+    * If the version of `.NET Framework` is less than `4.5` **and** the version of `Nuance Dragon Medical One` is greater than `2020.1`, an upgrade to the latest version of .NET is necessary.
+    * If `Nuance Dragon Medical One` is version `2020.1` or higher and `.NET Framework` is installed but below version `4.5`, `.NET Framework` must be upgraded 
 2. The script assesses whether a restart action is required based on whether an upgrade is necessary.
     * By default, if an upgrade is considered necessary (see previous requirement), a restart is also deemed necessary.
 3. The script operator has discretion to overrule the script's default determination of both the upgrade and restart actions.
