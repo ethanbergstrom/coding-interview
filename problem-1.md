@@ -2,7 +2,7 @@
 
 You are tasked with implementing a script that assesses system state to determine whether upgrading a software package is necessary, and whether to issue a restart.
 
-The algorithm to determine whether an upgrade is necessary is already provided (see `problem.py`). Your job is to define the function signature, inputs, and outputs, and explain your design decisions.
+The algorithm to determine whether an upgrade is necessary is already provided (see `script-template.py`). Your job is to define the function signature, inputs, and outputs, and explain your design decisions.
 
 
 ### Requirements:
