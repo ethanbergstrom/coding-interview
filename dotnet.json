@@ -1,4 +1,4 @@
 {
-    name = ".NET Framework"
-    version = "4.8.1"
+    "Name": ".NET Framework",
+    "Version": "4.8.1"
 }
