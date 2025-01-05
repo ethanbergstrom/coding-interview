@@ -7,7 +7,6 @@ You are tasked with modifying the script from the previous problem to handle upd
 1. All requirements from Problem 1 still hold true
 2. If `Microsoft Edge` is installed alongside `.NET Framework` and `Nuance Dragon Medical One`, `.NET Framework` must be upgraded to at least version `4.8.1`
     * As in the previous problem, system state for `Microsoft Edge` is speced in `edge.json`
-3. Script inputs should remain passive, so as to not burden the operator with new required parameters
 
 ### Your task:
 
